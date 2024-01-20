@@ -25,22 +25,22 @@ function playbackSimon(){
             setTimeout(function(){
         
                 if (r === 0){
-                $("#red").animate({opacity: 0.5}).animate({opacity: 1});
+                $("#red").animate({opacity: 0.1}).animate({opacity: 1});
                 bloop1.pause();
                 bloop1.currentTime = 0;
                 bloop1.play();
             } else if (r === 1){
-                $("#blue").animate({opacity: 0.5}).animate({opacity: 1});
+                $("#blue").animate({opacity: 0.1}).animate({opacity: 1});
                 bloop2.pause();
                 bloop2.currentTime = 0;
                 bloop2.play();
             } else if (r === 2){
-                $("#yellow").animate({opacity: 0.5}).animate({opacity: 1});
+                $("#yellow").animate({opacity: 0.1}).animate({opacity: 1});
                 bloop3.pause();
                 bloop3.currentTime = 0;
                 bloop3.play();
             } else {
-                $("#green").animate({opacity: 0.5}).animate({opacity: 1});
+                $("#green").animate({opacity: 0.1}).animate({opacity: 1});
                 bloop4.pause();
                 bloop4.currentTime = 0;
                 bloop4.play();
@@ -55,7 +55,7 @@ inputArray = [];
 //Manual Inputs
 $("#red").on("click", function(){
     inputArray.push(0);
-    $("#red").animate({opacity: 0.5}).animate({opacity: 1});
+    $("#red").animate({opacity: 0.1}).animate({opacity: 1});
     bloop1.pause();
     bloop1.currentTime = 0;
     bloop1.play();
@@ -64,7 +64,7 @@ $("#red").on("click", function(){
 
 $("#blue").on("click", function(){
     inputArray.push(1);
-    $("#blue").animate({opacity: 0.5}).animate({opacity: 1});
+    $("#blue").animate({opacity: 0.1}).animate({opacity: 1});
     bloop2.pause();
     bloop2.currentTime = 0;
     bloop2.play();
@@ -73,7 +73,7 @@ $("#blue").on("click", function(){
 
 $("#yellow").on("click", function(){
     inputArray.push(2);
-    $("#yellow").animate({opacity: 0.5}).animate({opacity: 1});
+    $("#yellow").animate({opacity: 0.1}).animate({opacity: 1});
     bloop3.pause();
     bloop3.currentTime = 0;
     bloop3.play();
@@ -82,7 +82,7 @@ $("#yellow").on("click", function(){
 
 $("#green").on("click", function(){
     inputArray.push(3);
-    $("#green").animate({opacity: 0.5}).animate({opacity: 1});
+    $("#green").animate({opacity: 0.1}).animate({opacity: 1});
     bloop4.pause();
     bloop4.currentTime = 0;
     bloop4.play();
