@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 5px 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: yellowgreen;
+}
+
+.simon-row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px;
+    padding 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: burlywood;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0px 10px;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: 2rem;
+}
